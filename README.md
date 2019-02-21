@@ -28,5 +28,5 @@ provided by the manufacturer.
 
 ### Sources
 Sugimoto, N et al. “Improved thermodynamic parameters and helix initiation factor to predict stability of DNA duplexes” Nucleic acids research vol. 24,22 (1996): 4501-5.
-<b/>
+<br/>
 Breslauer, K J et al. “Predicting DNA duplex stability from the base sequence” Proceedings of the National Academy of Sciences of the United States of America vol. 83,11 (1986): 3746-50.
