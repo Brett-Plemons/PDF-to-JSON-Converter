@@ -24,4 +24,4 @@ consistency to my lab, I will create a script which will provide the TM values, 
 provided by the manufacturer.
 
 ## Diagram
-![title](https://github.com/KaynRyu/semesterProject/blob/master/supplementary/semesterproject.jpg)
+<img src="https://github.com/KaynRyu/semesterProject/blob/Supplementary/semesterproject.jpg">
