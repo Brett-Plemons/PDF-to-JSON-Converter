@@ -14,7 +14,7 @@ and calculate the TM temperature for the forward and reverse primer, and the dil
 This script should produce an easy to read output(.pdf, .txt) for the user to quickly know how much water to add to dilute their primers,
 and what TM temperature to use when doing PCR.
 
-##Rationale
+## Rationale
 The TM can be calculated as a function of the nucleotide sequence, GC content, monovalent cation concentration used in the primer, the dilution volume is a function of the
 concentration of the pellet used in the primer in nmoles.
 
@@ -25,3 +25,7 @@ provided by the manufacturer.
 
 ## Diagram
 <img src="https://github.com/KaynRyu/semesterProject/blob/master/semesterproject.jpg">
+
+### Sources
+Sugimoto, N et al. “Improved thermodynamic parameters and helix initiation factor to predict stability of DNA duplexes” Nucleic acids research vol. 24,22 (1996): 4501-5.
+Breslauer, K J et al. “Predicting DNA duplex stability from the base sequence” Proceedings of the National Academy of Sciences of the United States of America vol. 83,11 (1986): 3746-50.
