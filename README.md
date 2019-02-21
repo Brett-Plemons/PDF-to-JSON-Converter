@@ -15,12 +15,12 @@ This script should produce an easy to read output(.pdf, .txt) for the user to qu
 and what TM temperature to use when doing PCR.
 
 ##Rationale
-The TM can be calculated as a function of the nucleotide sequence used in the primer, the dilution volume is a function of the
-concentration of the pellet used in the primer in ng/&#956;L.
+The TM can be calculated as a function of the nucleotide sequence, GC content, monovalent cation concentration used in the primer, the dilution volume is a function of the
+concentration of the pellet used in the primer in nmoles.
 
 My lab, like many other labs, is constantly receiving new primers specific to each project. Each set of primers typically will have its own
 dilution volume, and TM value which are both crucial to accurate results when performing PCR. In order to save time, and commit 
-consistency to my lab, I will create a script which will provide the TM values, and dilution volume for primers based on the label paperwork
+consistency to my lab, I will create a script which will provide the TM temperatures, and dilution volume for primers based on the label paperwork
 provided by the manufacturer.
 
 ## Diagram
