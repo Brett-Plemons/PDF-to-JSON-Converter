@@ -7,26 +7,16 @@
 **Project Area:** Molecular Biology
 
 ## Objective
-Write a python script that will scrape a primer sheet from companies like IDT
-and calculate the TM temperature for the forward and reverse primer, and the dilution volume and return it to the user.
+Write a python script that can reference, input, and retrieve data from an SQL database.
 
 ## Outcomes
-This script should produce an easy to read output(.pdf, .txt) for the user to quickly know how much water to add to dilute their primers,
-and what TM temperature to use when doing PCR.
+This script should provide an organized way to access, and input data into an SQL database.
 
 ## Rationale
-The TM can be calculated as a function of the nucleotide sequence, GC content, monovalent cation concentration used in the primer, the dilution volume is a function of the
-concentration of the pellet used in the primer in nmoles.
+The most tedious part of upkeeping a database and inventory is data input. On its own SQL is not capable of taking data from invoices or sequence data and organizing it. It is simply a structure in which needs a high level language like python to receive data and input it into the database.
 
-My lab, like many other labs, is constantly receiving new primers specific to each project. Each set of primers typically will have its own
-dilution volume, and TM value which are both crucial to accurate results when performing PCR. In order to save time, and commit 
-consistency to my lab, I will create a script which will provide the TM temperatures, and dilution volume for primers based on the label paperwork
-provided by the manufacturer.
+My lab, like many other labs, is constantly receiving new primers specific to each project, as well as sequence data, and other chemicals for molecular experiments. My goal is to provide a hassle-less method of taking data sent to our lab by IDT, Sigma, GeneWiz, and created by our labmates and inputting it into a SQL Database.
 
 ## Diagram
-<img src="https://github.com/KaynRyu/semesterProject/blob/master/semesterproject.jpg">
+<img src="https://github.com/KaynRyu/blob/semesterProject/Untitled Diagram.jpg">
 
-### Sources
-Sugimoto, N et al. “Improved thermodynamic parameters and helix initiation factor to predict stability of DNA duplexes” Nucleic acids research vol. 24,22 (1996): 4501-5.
-<br/>
-Breslauer, K J et al. “Predicting DNA duplex stability from the base sequence” Proceedings of the National Academy of Sciences of the United States of America vol. 83,11 (1986): 3746-50.
