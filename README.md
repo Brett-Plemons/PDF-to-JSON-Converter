@@ -17,6 +17,8 @@ The most tedious part of upkeeping a database and inventory is data input. On it
 
 My lab, like many other labs, is constantly receiving new primers specific to each project, as well as sequence data, and other chemicals for molecular experiments. My goal is to provide a hassle-less method of taking data sent to our lab by IDT, Sigma, GeneWiz, and created by our labmates and inputting it into a SQL Database.
 
+This will also give my lab the ability to inventory, and check inventory for products, as well as check primers for projects to avoid replicates.
+
 ## Diagram
 <img src="https://github.com/KaynRyu/semesterProject/blob/master/Untitled%20Diagram.jpg">
 
