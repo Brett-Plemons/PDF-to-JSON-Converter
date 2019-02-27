@@ -1,4 +1,4 @@
-# Calculating TM and dilution volume for primers
+# Using Python to create, maintain and query a database in unison with SQL
 
 **Name:** Brett Plemons 
 <br/>
