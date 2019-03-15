@@ -19,5 +19,5 @@ My lab, like many other labs, is constantly receiving new primers specific to ea
 This will also give my lab the ability to inventory, and check inventory for products, as well as check primers for projects to avoid replicates.
 
 ## Diagram
-
+<img source=https://github.com/KaynRyu/semesterProject/blob/master/semesterprojectdiagram.JPG>
 
