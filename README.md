@@ -29,9 +29,15 @@ This provides a simplified systematic process of taking data from input and illu
 For this project I have already used a lot of resources, and expect to need to use many more.
 
 [Copter Labs: What is JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
+<br>
 Extraction Method 1:
+<br>
 [Using Python to extract data from PDF](https://www.zevross.com/blog/2014/04/09/extracting-tabular-data-from-a-pdf-an-example-using-python-and-regular-expressions/)
+<br>
 [Pypi: PDFMiner Documentation](https://pypi.org/project/pdfminer.six/)
+<br>
 Extraction Method 2:
+<br>
 [Extracting data from PDFs using Python](https://qxf2.com/blog/extracting-data-from-pdfs-python/)
+<br>
 [PyPi: PyPDF2 Documentation](https://pypi.org/project/PyPDF2/)
