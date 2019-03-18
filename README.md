@@ -18,7 +18,7 @@ My lab, like many other labs, is constantly receiving new primers specific to ea
 
 This will also give my lab the ability to inventory, and check inventory for products, as well as check primers for projects to avoid replicates.
 
-One of my major goals is to design a progrma that can help to bridge the gap in smaller labs to those of larger labs. So, whether you are using an established SQL database or want to step ahead and convert to JSON. 
+One of my major goals is to design a program that can help to bridge the gap in smaller labs to those of larger labs. So, whether you are using an established SQL database or want to step ahead and convert to JSON. 
 
 ## Diagram
 <img src="https://github.com/KaynRyu/semesterProject/blob/master/semesterprojectdiagram.JPG"/>
