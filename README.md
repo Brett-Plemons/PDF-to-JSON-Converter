@@ -3,41 +3,37 @@
 <br/>
 **Semester:** Spring 2019
 <br/>
-**Project Area:** Molecular Biology
+**Project Area:** Data Mining
 
 ## Objective
-To write a python script that extract data from .pdf and .txt from IDT oligo spec sheets and organize it into a easy to read, and access format.
+To simplify the task of data entry, and increase lab organiziation by reducing the amount of spec sheets stored.
 
 ## Outcomes
-This script should create a hassle-less way to extract data and create easy to use formats such as .json, and update SQL data bases.
+Collect a user input on first use, or when called again, to select a directory or use a default (user/name/downloads/ or /home/name/Downloads). Then collect all IDT .pdfs from that directory and convert the useful information into usable .json files.
 
 ## Rationale
-The most tedious part of upkeeping a database and inventory is data input. Whether that be a collection of .json files or a structured database like those maintained with SQL. Python, however, can be used as a tool to reduce the tedium of data entry by automating this process.
-
-My lab, like many other labs, is constantly receiving new primers specific to each project, as well as sequence data, and other chemicals for molecular experiments. My goal is to provide a hassle-less method of taking data sent to our lab by IDT, Sigma, GeneWiz, and created by our labmates and inputting it into a SQL Database.
-
-This will also give my lab the ability to inventory, and check inventory for products, as well as check primers for projects to avoid replicates.
-
-One of my major goals is to design a program that can help to bridge the gap in smaller labs to those of larger labs. So, whether you are using an established SQL database or want to step ahead and convert to JSON. 
+A large issue in a lot of labs is clutter, and finding data when you need it. Another issue for a lot of people, myself in cluded, is data entry. It is tedious, mundane, and just boring. So, I wanted to develop an app that would be able to be implemented into any lab, big or small, and be able to take .pdf files for Primer Spec sheets from IDT and create .json files that can be used as is, or can be implemented into a new or existing database.
 
 ## Diagram
 <img src="https://github.com/KaynRyu/semesterProject/blob/master/semesterprojectdiagram.JPG"/>
 
-This provides a simplified systematic process of taking data from input and illustrate the process of how the script will organize data.
+This provides a simplified systematic process of taking data from input and illustrate the process of how the app will organize data.
 
 ## References
-For this project I have already used a lot of resources, and expect to need to use many more.
+For this project I have already used a lot of resources, and these are the ones that ultimately I used in the creation of my script.
 
-[Copter Labs: What is JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
-<br>
-Extraction Method 1:
-<br>
-[Using Python to extract data from PDF](https://www.zevross.com/blog/2014/04/09/extracting-tabular-data-from-a-pdf-an-example-using-python-and-regular-expressions/)
-<br>
-[Pypi: PDFMiner Documentation](https://pypi.org/project/pdfminer.six/)
-<br>
-Extraction Method 2:
-<br>
-[Extracting data from PDFs using Python](https://qxf2.com/blog/extracting-data-from-pdfs-python/)
+[Python 3.7 Documentation](https://www.programiz.com/python-programming/methods/string/index). It is not the official [Python.org](python.org) but it is a bit easier to navigate.
 <br>
 [PyPi: PyPDF2 Documentation](https://pypi.org/project/PyPDF2/)
+<br>
+[Regular Expression Module](https://docs.python.org/3/library/re.html)
+<br>
+Regular expressions was probably the most used, and most helpful module I used in this project. It may even be my absolute favorite module in python right now for anything dealing with text as it is so versatile. I would suggest learning it for any project like at [Regex101](https://regex101.com/r/mH2mnK/2)
+<br>
+For scanned PDFs I had to use Google's OCR in a Python Wrapper IO called [Textract](https://textract.readthedocs.io/en/stable/)
+<br>
+[Copter Labs: What is JSON](https://www.copterlabs.com/json-what-it-is-how-it-works-how-to-use-it/)
+<br>
+For converting the collected data into .JSON files as arrays for database implementation I obviously used the [JSON Module](https://docs.python.org/3/library/json.html)
+<br>
+The [Stackoverflow](www.stackoverflow.com) and [AskUbuntu](www.askubuntu.com) communities were life savers with debugging, package implementation, and install issues.
