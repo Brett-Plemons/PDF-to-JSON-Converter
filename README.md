@@ -37,3 +37,5 @@ For scanned PDFs I had to use Google's OCR in a Python Wrapper IO called [Textra
 For converting the collected data into .JSON files as arrays for database implementation I obviously used the [JSON Module](https://docs.python.org/3/library/json.html)
 <br>
 The [Stackoverflow](www.stackoverflow.com) and [AskUbuntu](www.askubuntu.com) communities were life savers with debugging, package implementation, and install issues.
+</br>
+This program requires Tesseract OCR which you can download from [Google](https://github.com/tesseract-ocr/tesseract)
