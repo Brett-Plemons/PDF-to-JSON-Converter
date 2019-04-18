@@ -20,7 +20,7 @@ A large issue in a lot of labs is clutter, and finding data when you need it. An
 This provides a simplified systematic process of taking data from input and illustrate the process of how the app will organize data.
 
 ## Setup
-To get started with this program find the [How-To](https://github.com/KaynRyu/semesterProject/wiki/Getting-Started) or in the Wiki. 
+To get started with this program find the [Getting Started](https://github.com/KaynRyu/semesterProject/wiki/Getting-Started) or in the Wiki. 
 
 ## References
 For this project I have already used a lot of resources, and these are the ones that ultimately I used in the creation of my script.
