@@ -1,8 +1,6 @@
 # Using Python to take information from .pdf and .txt and input into a database/ create .json
 **Name:** Brett Plemons 
 <br/>
-**Semester:** Spring 2019
-<br/>
 **Project Area:** Data Mining
 
 ## Objective
