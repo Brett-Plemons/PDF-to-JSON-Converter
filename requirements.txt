@@ -43,7 +43,7 @@ dask==1.1.4
 datashape==0.5.4
 decorator==4.4.0
 defusedxml==0.5.0
-distributed==1.26.0
+distributed==2021.10.0
 docutils==0.14
 docx2txt==0.6
 EbookLib==0.15
